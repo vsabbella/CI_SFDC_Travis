@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MyPkg</fullName>
+    
+<types>
+<members>Book__c</members>	
+<members>Shipping_Invoice__c</members>
+<members>Item__c</members>
+<name>CustomObject</name>
+</types>
+
+<types>
+<members>MyHelloWorld</members>	
+<members>HelloWorldTestClass</members>	
+<members>TestShippingInvoice</members>	
+<name>ApexClass</name>
+</types>
+
+<types>
+<members>HelloWorldTrigger</members>	
+<members>calculate</members>	
+<members>ShippingDiscount</members>	
+<name>ApexTrigger</name>
+</types>
+
+<types>
+<members>Shipping_Invoice__c.GrandTotal__c</members>	 
+<members>Shipping_Invoice__c.ShippingDiscount__c</members>	 
+<members>Shipping_Invoice__c.Tax__c</members>	 
+<members>Shipping_Invoice__c.TotalWeight__c</members>	
+<members>Shipping_Invoice__c.Shipping__c</members>	
+<members>Shipping_Invoice__c.Subtotal__c</members>	
+<members>Item__c.Quantity__c</members>	 
+<members>Item__c.Weight__c</members>	
+<members>Item__c.Shipping_Invoice__c</members>
+<members>Book__c.Price__c</members>	
+<members>Item__c.Price__c</members>	
+<name>CustomField</name>
+</types>
+    <version>44.0</version>
+</Package>
