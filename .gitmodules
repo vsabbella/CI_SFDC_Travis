@@ -1,3 +1,0 @@
-[submodule "build/solenopsisgit"]
-	path = build/solenopsisgit
-	url = git://github.com/solenopsis/Solenopsis.git
